@@ -15,7 +15,7 @@
     - name: Apply Page Template
       template:
         src: files/landing-page.html.j2
-        dest: /var/www/html/index.nginx-debian.html
+        dest: /var/index.nginx-debian.html
 
     - name: Allow all access to tcp port 80
       ufw:
